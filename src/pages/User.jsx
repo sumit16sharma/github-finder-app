@@ -14,7 +14,7 @@ const User = () => {
   // this is how to get the url param name
   const params = useParams();
 
-  useEffect(async () => {
+  useEffect(() => {
     dispatch({ type: 'SET_LOADING' });
 
     const getUserData = async () => {
